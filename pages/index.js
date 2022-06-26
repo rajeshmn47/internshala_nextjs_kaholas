@@ -15,7 +15,7 @@ export default function Home() {
     <div className='p-12' style={{fontFamily:'Musio Sans 500'}}>
      <h5 className='text-4xl font-black capitalize'>Summer art camp! 5 days of artists and 
      painting monet,Van Gogh,Matisse,& More</h5>
-     <h5 className='text-2xl font-bold font-roboto capitalize text-grey-50' >Multi day course ?</h5>
+     <h5 className='text-2xl font-bold font-roboto capitalize text-grey-50 mt-1' >Multi day course ?</h5>
      <div className='flex justify-between mt-12'>
       <div className='w-1/2'>
         <p className='font-bold font-verdana font-roboto' style={{fontFamily:'Musio Sans 500'}}>
@@ -34,7 +34,8 @@ have fun learning about artists & creating their own art inspired by their work.
 </div>
 <h2 className='font-bold mt-6 mb-6'>completed by 21 learners</h2>
 <div className='flex justify-between mt-12'>
-<button className='bg-blue-600 text-white p-2 font-bold capitalize rounded-full'>see class schedle <ArrowForwardIosIcon/></button>
+<button className='bg-blue-600 text-white  px-4 py-2 font-bold capitalize rounded-full'>see class schedle
+ <ArrowForwardIosIcon style={{fontSize:'17px',marginLeft:'5px'}}/></button>
 <button className='text-blue-600 font-bold capitalize'><FavoriteBorderIcon/>  save</button>
 <button className='text-blue-600 font-bold capitalize'><ShareOutlinedIcon/> share</button>
 </div>
